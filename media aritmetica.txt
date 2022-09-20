@@ -1,0 +1,26 @@
+=====média aritmética em c++=====
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{  int var1=0,var2=0,var3=0;
+
+    cout<<"\ndigite o 1º numero:";
+    cin>>var1;
+    
+    cout<<"\ndigite o 2º numero:";
+    cin>>var2;
+    
+    var3=(var1+var2);
+    var3=((var1+var2)/2);
+    
+    if (var3>=7)
+    cout<<"aprovado!";
+    
+    if(var3<7)
+    cout<<"reprovado";
+    
+      return 0;
+}
